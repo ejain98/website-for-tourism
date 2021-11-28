@@ -1,0 +1,26 @@
+Images-
+Used in html pages-
+https://www.karnatakatourism.org/gallery/
+https://www.tourmyindia.com/states/punjab/
+https://www.tripadvisor.com/Tourism-g297614-Haryana-Vacations.html
+https://www.gujarattourism.com/
+https://www.tourmyindia.com/states/assam/
+https://himachaltourism.gov.in/
+
+image-test1.jpg - an image of a friend
+original1.jpg,original2.jpg,original3.jpg and original4.jpeg - From phone
+
+Video links:
+video1: https://www.youtube.com/watch?v=0LQAO8Y2BGQ
+video2: https://www.youtube.com/watch?v=JY4UzICqo5U
+
+Website used for icons: https://stock.adobe.com/search/images
+
+Reference for details about tourist location:
+--> By myself
+--->www.google.com
+
+Reference for code: 
+https://www.w3schools.com/
+
+

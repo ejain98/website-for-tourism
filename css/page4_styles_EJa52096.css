@@ -1,0 +1,97 @@
+
+    
+    .position{
+        width:75%;
+        margin:auto;
+        padding:78px 0;
+    }
+    .position iframe{
+        width:100%;
+         border:1px solid gray;
+}
+
+/*--------------------------------------Contact-icons--------------------------------------*/
+.contact_us{
+    width:70%;
+    margin:auto;
+    border: 1px solid  rgb(204, 148, 27);
+}
+.contact_col{
+    flex-basis:48%;
+    margin-bottom:30px;
+}
+.contact_col .contact{
+    display:flex;
+    align-items: center;
+    margin-bottom:35px;
+}
+.contact_col .contact .fas{
+    font-size: 25px;
+    margin-right:22px ;
+    margin:12px;
+    color:rgb(204, 148, 27);
+}
+.contact_col .contact p{
+    padding:0;
+}
+.contact_col .contact .txt{
+    font-size:21px;
+    margin-bottom: 5px;
+    color:rgb(156, 113, 33);
+    font-weight:420;
+}
+
+
+.contact_col input, .contact_col textarea, .contact_col #destination{
+    width: 90%;
+    padding:12px;
+    margin-bottom: 15px;
+    outline:none;
+    border:1px solid rgb(204, 148, 27);
+    box-sizing: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.contact_col  h3{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(34, 32, 32);
+    padding:15px 12px;
+}
+.contact_col  h3::after{
+    content: '';
+    background: rgb(204, 148, 27);
+    display: block;
+    height: 4px;
+    width: 140px;
+    margin-left: 43.5%;
+    margin-top: 4px;
+    
+}
+.contact_col #destination{
+    width: 92.5%;
+    padding:12px;
+    margin-bottom: 15px;
+    outline:none;
+    border:1px solid rgb(204, 148, 27);
+    box-sizing: inline-block;
+    margin-left: 10px;
+}
+.contact_col .button2{
+    padding:10px 10px;
+    border: 2px solid snow;
+    background-color: rgb(204, 148, 27);
+    color:black;
+    width:250px;
+    height:50px;
+    margin-left: 10px;
+    font-size:20px;
+    font-weight: 200;
+
+}
+.contact_col .button2:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 148, 27);
+    color:black;
+    background: snow;
+}

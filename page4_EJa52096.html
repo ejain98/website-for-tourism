@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index_styles_EJa52096.css">
+    <link rel="stylesheet" href="css/page4_styles_EJa52096.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>Contact-Tour With Perfection</title>
+    <script src="scripts/script_EJa52096.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="menu">
+                <a href="index.html"><img src="images/logo.png" alt=" logo"></a>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2_EJa52096.html">Our TOURS</a></li>
+                    <li><a href="page3_EJa52096.html">About US</a></li>
+                    <li><a href="#contact">Contact US</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="contact_us">
+        <div class="contact_row">
+
+            <div class="contact_col" id="contact">
+                <h3>Contact Us</h3>
+                <form name="myForm" id="myForm" action="page4_EJa52096.html" method="Post"
+                    onsubmit="return formSubmit()" enctype="application/x-www-form-urlencoded">
+
+                    <input type="text" name="name" id="name" placeholder="Enter name" required>
+                    <input type="email" name="email" id="myemail" placeholder="Enter email adress" required>
+
+                    <select id="destination" name="destination">
+                        <option value="Select">Select desired State to visit</option>
+                        <option value="Punjab ">Punjab </option>
+                        <option value="Rajasthan ">Rajasthan </option>
+                        <option value="Gujrat ">Gujrat </option>
+                        <option value="Andhra ">Andhra Pradesh </option>
+                        <option value=" Himachal">Himachal Pradesh </option>
+                    </select>
+
+                    <input type="text" name="subject" id="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" id="message" placeholder="Message"></textarea>
+                    <input type="submit" id="btn_submit" class="button2" value="Start Planning"
+                        onclick="formSubmit(this.form)" onsubmit="myFunc()">
+                </form>
+            </div>
+            <div class="contact_col">
+                <div class="contact">
+                    <i class="fas fa-home"></i>
+
+                    <span>
+
+                        <p class="txt">700 Royal Ave</p>
+                        <p> New Westminster, BC V3M 5Z5</p>
+                    </span>
+
+                </div>
+                <div class="contact">
+                    <i class="fas fa-phone"></i>
+                    <span>
+
+                        <p class="txt">12121227865</p>
+                        <p> Monday to Saturday,6am to 5pm</p>
+                    </span>
+
+                </div>
+                <div class="contact">
+                    <i class="fas fa-envelope-open"></i>
+                    <span>
+                        <p class="txt">jainekta1510@gmail.com</p>
+                        <p> Email us your Touring destination or for any query.</p>
+                    </span>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="position">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.8353414612516!2d-122.91278390000001!3d49.20368310000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d871f5ee4dc9%3A0xf3a710065f3a2f3f!2sDouglas%20College%20New%20Westminster%20Campus!5e0!3m2!1sen!2sca!4v1634593139792!5m2!1sen!2sca"
+            width="625" height="430" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer_images">
+                <img src="Images/footer1.jpg" alt="footr1">
+                <img src="Images/foot2.jpg" alt="footr2">
+                <img src="Images/foot3.jpg" alt="footr3">
+                <img src="Images/foot4.jpg" alt="footr4">
+                <img src="Images/foot5.jpg" alt="footr5">
+            </div>
+            <div class="footer-text">
+                <p>&copy; Powered by Jains. All Rights Reserved.</p>
+                <div class="icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
